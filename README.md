@@ -1,3 +1,3 @@
 # calculator
 A calculator made with javascript, html and css
-Collaborator: gihub.com/koymatt
+Collaborator: github.com/koymattk
