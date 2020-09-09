@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="box">
+        <div class="input">
+            <input placeholder="0" type="text" id="insert" disabled>
+            <!-- <button id="delete"> Delete </button> -->
+        </div>
+        
+        <div class="numb">
+            <button onclick="calcular('value', 7)" id="7">7</button>
+            <button onclick="calcular('value', 8)" id="8">8</button>
+            <button onclick="calcular('value', 9)" id="9">9</button>
+            <button onclick="calcular('action', '+')" id="+">+</button><br>
+            <button onclick="calcular('value', 4)" id="4">4</button>
+            <button onclick="calcular('value', 5)" id="5">5</button>
+            <button onclick="calcular('value', 6)" id="6">6</button>
+            <button onclick="calcular('action', '-')" id="-">-</button><br>
+            <button onclick="calcular('value', 1)" id="1">1</button>
+            <button onclick="calcular('value', 2)" id="2">2</button>
+            <button onclick="calcular('value', 3)" id="3">3</button>
+            <button onclick="calcular('action', '*')" id="*">*</button><br>
+            <button onclick="calcular('action', '=')" id="equal">=</button>
+            <button onclick="calcular('value', 0)" id="0">0</button>
+            <button onclick="calcular('action', '/')" id="/">/</button>
+        </div><!--numb-->
+    </div><!--box-->
+    <script src="script.js"></script>
+</body>
+
+</html>
